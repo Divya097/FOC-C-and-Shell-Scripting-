@@ -1,0 +1,23 @@
+C PROGRAM:
+
+#include<stdio.h>
+int main()
+{
+  	int i, number;
+  	printf("\n Enter the Maximum Limit Value : ");
+  	scanf("%d", &number);
+  	printf("\n Odd Numbers between 1 and %d are : \n", number);
+  	for(i = 1; i <= number; i++)
+  	{
+    	if ( i % 2 != 0 ) 
+    	{
+  			printf(" %d\n", i);
+    	}
+  	}
+  	return 0;
+}
+
+OUTPUT:
+
+Enter the maximum limit value: 15
+1,3,5,7,9,11,13,15
